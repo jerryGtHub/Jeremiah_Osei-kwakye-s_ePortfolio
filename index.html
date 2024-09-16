@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremiah's E-portfolio Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My custom CSS file -->
+    <link rel="stylesheet" href="./css/custom.css">
+
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg py-3">
+        <div class="container" style="max-width: 1000px;">
+          <!-- Logo Section -->
+          <a class="navbar-brand personal__logo my_primary-color" href="#">Jeremiah Osei-Kwakye</a>
+      
+          <!-- Toggler for mobile view -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Links Section -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto nav__link--list">
+              <li class="nav-item">
+                <a class="nav-link nav__link--anchor link__hover-effect link__hover-effect--black" href="#languages">Languages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav__link--anchor link__hover-effect link__hover-effect--black" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn nav__link--anchor-primary" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    <!-- ABOUT ME SECTION -->
+    <section id="about-me" class="py-5">
+        <div class="container" style="max-width: 1000px;">
+          <div class="row justify-content-center text-center">
+            <!-- Image Section -->
+            <div class="col-md-12 mb-4">
+              <img src="./assets/jerry.png" class="rounded-circle img-fluid shadow" style="width: 150px;" alt="Jeremiah Osei-Kwakye">
+            </div>
+      
+            <!-- Text Section -->
+            <div class="col-md-8">
+              <h1 class="about-me__info--title">
+                Hey! I'm <span class="my_primary-color">Jeremiah Osei-Kwakye</span> 👋
+              </h1>
+              <p class="about-me__info--para">
+                I'm a <strong class="my_primary-color">frontend software engineer</strong> with a strong passion for building responsive and performant web applications with great user experiences that positively impact the world.
+              </p>
+      
+              <!-- Social Links -->
+              <div class="d-flex justify-content-center mt-3">
+                <a href="#" class="mx-3 about-me__link"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" class="mx-3 about-me__link"><i class='bx bxl-github' ></i></a>
+                <a href="#" class="mx-3 about-me__link"><i class='bx bx-envelope' ></i></a>
+                <a href="#" class="mx-3 about-me__link"><i class='bx bxs-file-pdf' ></i></a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- SVG Image -->
+          <div class="row justify-content-center mt-5">
+            <div class="col-md-10">
+              <img src="./assets/undraw_websites.svg" class="img-fluid" alt="Building websites illustration">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    
+    <!-- TECHNOLOGY STACK SECTION -->
+    <section id="languages" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h1 class="section__title">
+              This is my <span class="my_primary-color">technology stack</span>
+            </h1>
+          </div>
+        </div>
+    
+        <!-- Tech Stack Icons -->
+        <div class="row text-center mt-4 language__list">
+          <div class="col-6 col-md-3 mb-4 language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/html-5-logo-svgrepo-com.svg" class="language__img img-fluid" alt="HTML5">
+              <span class="language__name">HTML</span>
+            </figure>
+          </div>
+    
+          <div class="col-6 col-md-3 mb-4 language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/css3-svgrepo-com.svg" class="language__img img-fluid" alt="CSS3">
+              <span class="language__name">CSS3</span>
+            </figure>
+          </div>
+    
+          <div class="col-6 col-md-3 mb-4 language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/bootstrap-svgrepo-com.svg" class="language__img img-fluid" alt="Bootstrap">
+              <span class="language__name">Bootstrap</span>
+            </figure>
+          </div>
+    
+          <div class="col-6 col-md-3 mb-4 language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/tailwind-svgrepo-com.svg" class="language__img img-fluid" alt="Tailwind">
+              <span class="language__name">Tailwind</span>
+            </figure>
+          </div>
+    
+          <div class="col-6 col-md-3 mb-4 language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/javascript-svgrepo-com.svg" class="language__img img-fluid" alt="JavaScript">
+              <span class="language__name">JavaScript</span>
+            </figure>
+          </div>
+    
+          <div class="col-6 col-md-3 mb-4 language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/typescript-logo-svgrepo-com.svg" class="language__img img-fluid" alt="TypeScript">
+              <span class="language__name">TypeScript</span>
+            </figure>
+          </div>
+    
+          <div class="col-6 col-md-3 mb-4 language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/python-svgrepo-com.svg" class="language__img img-fluid" alt="Python">
+              <span class="language__name">Python</span>
+            </figure>
+          </div>
+    
+          <div class="col-6 col-md-3 mb-4 language">
+            <figure class="language__img--wrapper">
+              <img src="./assets/react-svgrepo-com.svg" class="language__img img-fluid" alt="React">
+              <span class="language__name">React</span>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+  
+    <!-- PROJECT SECTION -->
+    <section id="projects" class="py-5">
+      <div class="container" style="max-width: 900px;">
+        <!-- Section Title -->
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h1 class="section__title">Here are some of my <span class="text--purple">projects</span></h1>
+          </div>
+        </div>
+    
+        <!-- Project List -->
+        <div class="row mt-5">
+          <!-- Project 1 -->
+          <div class="col-12 mb-5"> <!-- Increased bottom margin for vertical spacing -->
+            <div class="project__wrapper position-relative overflow-hidden">
+              <img src="./assets/Pass.png" class="project__img img-fluid" alt="Pass Accounting Software">
+              <div class="project__description position-absolute">
+                <h3 class="project__description--title">PASS Accounting Software Project</h3>
+                <h4 class="project__description--sub-title">Html, CSS, Bootstrap, JavaScript</h4>
+                <p class="project__description--para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Rerum ratione quas repellendus natus distinctio, provident 
+                  corporis odit maiores eos minima.
+                </p>
+                <div class="d-flex">
+                  <a href="https://github.com/jerryGtHub/PASS" target="_blank" class="project__description--link me-3">
+                    <i class='bx bxl-github'></i> GitHub
+                  </a>
+                  <a href="https://jerrygthub.github.io/PASS/" target="_blank" class="project__description--link">
+                    <i class='bx bx-link'></i> Live
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 2 -->
+          <div class="col-12 mb-5">
+            <div class="project__wrapper position-relative overflow-hidden">
+              <img src="./assets/ePortfolio.png" class="project__img img-fluid" alt="Eportfolio Project">
+              <div class="project__description position-absolute">
+                <h3 class="project__description--title">Eportfolio Project</h3>
+                <h4 class="project__description--sub-title">Html, CSS, Bootstrap</h4>
+                <p class="project__description--para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Rerum ratione quas repellendus natus distinctio, provident 
+                  corporis odit maiores eos minima.
+                </p>
+                <div class="d-flex">
+                  <a href="https://github.com/jerryGtHub/myeportfolio" target="_blank" class="project__description--link me-3">
+                    <i class='bx bxl-github'></i> GitHub
+                  </a>
+                  <a href="https://jerrygthub.github.io/myeportfolio/" target="_blank" class="project__description--link">
+                    <i class='bx bx-link'></i> Live
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 3 -->
+          <div class="col-12 mb-5">
+            <div class="project__wrapper position-relative overflow-hidden">
+              <img src="./assets/chat.png" class="project__img img-fluid" alt="Chat App Project">
+              <div class="project__description position-absolute">
+                <h3 class="project__description--title">Sample Chat App Project</h3>
+                <h4 class="project__description--sub-title">Html, CSS, Bootstrap, JavaScript</h4>
+                <p class="project__description--para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Rerum ratione quas repellendus natus distinctio, provident 
+                  corporis odit maiores eos minima.
+                </p>
+                <div class="d-flex">
+                  <a href="https://github.com/dashboard" target="_blank" class="project__description--link me-3">
+                    <i class='bx bxl-github'></i> GitHub
+                  </a>
+                  <a href="https://example.com/" target="_blank" class="project__description--link">
+                    <i class='bx bx-link'></i> Live
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- FOOTER SECTION -->
+      <footer class="bg-dark text-white py-5">
+        <div class="container">
+          <!-- Footer Name and Back-to-Top Button -->
+          <div class="row justify-content-center">
+            <div class="col-12 text-center mb-4">
+              <a href="#" class="footer__anchor d-inline-block position-relative">
+                <span class="footer__logo--name">Jeremiah Osei-Kwakye</span> <!-- Your name as the footer logo -->
+                <span class="footer__logo--popper position-absolute text-white">
+                  Top <i class="bx bx-up-arrow-alt"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+      
+          <!-- Social Links -->
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <ul class="list-inline footer__social--list">
+                <li class="list-inline-item">
+                  <a href="https://github.com/jerryGtHub" target="_blank" class="footer__social--link text-white link__hover-effect link__hover-effect--white">GitHub</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://linkedin.com/in/jerryLinkedIn" target="_blank" class="footer__social--link text-white link__hover-effect link__hover-effect--white">LinkedIn</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="mailto:jerryoseikwakye@example.com" class="footer__social--link text-white link__hover-effect link__hover-effect--white">Email</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="./assets/Example_Resume.pdf" target="_blank" class="footer__social--link text-white link__hover-effect link__hover-effect--white" download>Resume</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+       
+
+
+<!-- Bootstrap JS (for components like navbar and modals) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
